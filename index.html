@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio id="audioPlayer" src="./assets/media/circus.mp3"></audio>
+    <audio id="audioPlayerTwo" src="./assets/media/fart.mp3"></audio>
+    <header>
+        <h1>CLICK THE CLOWN</h1>
+        <div id="navContainer">
+            <nav>
+                <div onclick="startGame(true)" class="button" id="startButton">START</div>
+                <div onclick="reset()" class="button">RESET</div>
+                <div onclick="music()" class="button" id="optionsButton">MUSIC ON/OFF</div>
+                <div onclick="stopGame()" class="button" id="quitButton">STOP</div>
+                <div onclick="changeDifficulty()" class="button" id="difficultyButton">DIFFICULTY : EASY</div>
+            </nav>
+        </div>
+    </header>
+    <main>
+            <img id="imgClown" src="./assets/img/clown.png" alt="image de clown" width="10%">
+
+
+    </main>
+    <footer>
+        <div id="pointCountContainer">
+            <p id="count"></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
